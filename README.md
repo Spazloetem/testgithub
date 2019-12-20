@@ -12,6 +12,7 @@ testgithub
 		<td>ccc</td>
 	</tr>
 </table>
+
 ```
 imgUrl:     大頭貼圖片連結 (圖片建議大小: 150 x 150，連結範例: https://i.imgur.com/xxx.jpg)
 name:       個人真實姓名
@@ -23,3 +24,6 @@ experience: 相關工作經歷 (僅可輸入數字，單位是以年為單位，
 description:個人簡述 (限制 150 字數內)
 profileUrl: 個人線上履歷連結，線上履歷內請務必附上作品 Demo 與原始碼連結 (GitHub)
 ```
++   Red
++   Green
++   Blue
