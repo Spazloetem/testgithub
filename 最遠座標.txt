@@ -1,0 +1,35 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> x = new ArrayList<Integer>();
+		List<Integer> y = new ArrayList<Integer>();
+		String c = "Y";
+		double count = 0 ;
+		int get = 0;
+		Scanner in = new Scanner(System.in);
+		
+		while(c.equals("Y")) {
+			System.out.println("請輸入x座標");
+			x.add(in.nextInt());
+			System.out.println("請輸入y座標");
+			y.add(in.nextInt());
+			System.out.println("是否輸入座標座標 Y/N");
+			c = in.next().toUpperCase();
+		}
+		
+		
+		for(int i = 0 ; i < x.size(); i++) {
+			
+			double count2 = Math.sqrt(( x.get(i) * x.get(i) ) + ( y.get(i) * y.get(i)));
+			if(count2 > count) {
+				count = count2;
+				get = i;
+			}
+			
+			
+		}
+		
+		System.out.println("最遠座標:"+x.get(get)+","+y.get(get));
+		
+		
+
+	}
